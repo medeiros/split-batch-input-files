@@ -1,6 +1,6 @@
 # split-batch-input-files
 
-[![CircleCI](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master)](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master) 
+[![CircleCI](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master)](https://circleci.com/gh/medeiros/split-batch-input-files) 
 [![Code Size](https://img.shields.io/github/languages/code-size/medeiros/split-batch-input-files)](https://img.shields.io/github/languages/code-size/medeiros/split-batch-input-files)
 [![License](https://img.shields.io/github/license/medeiros/split-batch-input-files)](https://img.shields.io/github/license/medeiros/split-batch-input-files)
 
