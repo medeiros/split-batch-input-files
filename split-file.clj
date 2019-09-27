@@ -1,5 +1,3 @@
-;; https://github.com/bbatsov/clojure-style-guide
-
 (use '[clojure.string :only [split-lines join]])
 
 (defn- partitioned-data-from-file
@@ -25,6 +23,3 @@
     (map #(generate-file file % partition-data)
           (range 0 (count partition-data)))))
 
-;; todo: add function to remove generated files
-;; todo: add unit test
-;; todo: add to leiningen to generate jar lib
