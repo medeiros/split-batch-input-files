@@ -12,8 +12,8 @@ Created in Clojure functional language.
 Todo list:
 
 - add function to remove generated files
-- add unit tests
-- add file to Leiningen project, in order to generate a lib jar
+- ~~add unit tests~~
+- ~~add file to Leiningen project, in order to generate a lib jar~~
 
 Clojure Style - cheet sheet being adopted:
 
