@@ -1,5 +1,7 @@
 # split-batch-input-files
 
+[![CircleCI](https://circleci.com/gh/medeiros/split-batch-input-files.svg?style=svg)](https://circleci.com/gh/medeiros/split-batch-input-files)
+
 This library splits a file in several, so an ETL mechanism (like Spring 
 Batch) is able to read data in parallel, improving overall performance.
 
