@@ -1,6 +1,8 @@
+(ns split-batch-input-files.split-file)
+
 (use '[clojure.string :only [split-lines join]])
 
-(defn- partitioned-data-from-file
+(defn partitioned-data-from-file
   "Load a file and return it as a partitioned list."
   [file pieces]
   (let [data (split-lines (slurp file))]
