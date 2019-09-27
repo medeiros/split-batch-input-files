@@ -1,6 +1,8 @@
 # split-batch-input-files
 
-[![CircleCI](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master)](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master)
+[![CircleCI](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master)](https://img.shields.io/circleci/build/github/medeiros/split-batch-input-files/master) 
+[![Code Size](https://img.shields.io/github/languages/code-size/medeiros/split-batch-input-files)](https://img.shields.io/github/languages/code-size/medeiros/split-batch-input-files)
+[![License](https://img.shields.io/github/license/medeiros/split-batch-input-files)](https://img.shields.io/github/license/medeiros/split-batch-input-files)
 
 This library splits a file in several, so an ETL mechanism (like Spring 
 Batch) is able to read data in parallel, improving overall performance.
