@@ -7,16 +7,50 @@
 This library splits a file in several, so an ETL mechanism (like Spring 
 Batch) is able to read data in parallel, improving overall performance.
 
-This is a library to be used Java applications.
+This library would be used in JVM-based applications.
 
 Created in Clojure functional language.
 
-Todo list:
+## Todo list:
 
 - add function to remove generated files
+- improve unit tests using some cool lib
 - ~~add unit tests~~
 - ~~add file to Leiningen project, in order to generate a lib jar~~
 
-Clojure Style - cheet sheet being adopted:
 
-https://github.com/bbatsov/clojure-style-guide
+#### Clojure Style: cheet sheet being adopted:
+
+[CheatSheet URL][]
+
+[CheatSheet]: https://github.com/bbatsov/clojure-style-guide
+
+## Installation
+
+    $ lein -uberjar
+
+## Usage
+
+Just call the lib function:
+
+    split-file [file pieces]
+
+And your file will be splitted in pieces.
+
+## Examples
+
+    (split-file "test-file.csv" 3)
+
+- test-file.csv file has five lines
+- It will generate:
+    - test-file.csv.0: containing 2 lines
+    - test-file.csv.1: containing 2 lines
+    - test-file.csv.2: containing the remainder 5th line
+
+## License
+
+Copyright © 2019 medeiros
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
+
