@@ -49,8 +49,7 @@ And your file will be splitted in pieces.
 
 ## License
 
-Copyright © 2019 medeiros
+Copyright © 2019 Daniel Medeiros
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the MIT License.
 
