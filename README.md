@@ -21,7 +21,7 @@ Created in Clojure functional language.
 
 #### Clojure Style: cheet sheet being adopted:
 
-[CheatSheet URL][https://github.com/bbatsov/clojure-style-guide]
+[CheatSheet URL](https://github.com/bbatsov/clojure-style-guide)
 
 ## Installation
 
