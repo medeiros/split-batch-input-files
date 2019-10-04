@@ -25,7 +25,7 @@ Created in Clojure functional language.
 
 ## Installation
 
-    $ lein -uberjar
+    $ lein uberjar
 
 ## Usage
 
