@@ -4,7 +4,7 @@
             [clojure.java.io :as jio]))
 
 (deftest should-partition-data-from-file
-  (testing "FIXME, I fail."
+  (testing "Error should-partition-data-from-file."
     (let [data (partitioned-data-from-file (jio/file (jio/resource "test-file.csv")), 3)]
       (is (= (count data) 3))
       (is (= (count (nth data 0)) 2))
